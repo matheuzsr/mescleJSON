@@ -4,14 +4,6 @@ const infos = require('./merge.json');
 const municipios = require('./municipios.json');
 
 const infoFull = [];
-/**
- * const munisES= municipios.filter(( elem, index, array)=>{ 
- * if (elem["codigo_uf"]==31){
- *   return elem;
- * }
- * }) 
- * 
- */
 
 infos.map(info => {
 
